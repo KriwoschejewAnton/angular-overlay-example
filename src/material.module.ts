@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {A11yModule} from '@angular/cdk/a11y';
+/*import {A11yModule} from '@angular/cdk/a11y';
 import {CdkAccordionModule} from '@angular/cdk/accordion';
 import {ClipboardModule} from '@angular/cdk/clipboard';
 import {DragDropModule} from '@angular/cdk/drag-drop';
@@ -41,14 +41,14 @@ import {MatTableModule} from '@angular/material/table';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
-import {MatTreeModule} from '@angular/material/tree';
+import {MatTreeModule} from '@angular/material/tree';*/
 import {OverlayModule} from '@angular/cdk/overlay';
-import {CdkMenuModule} from '@angular/cdk/menu';
-import {DialogModule} from '@angular/cdk/dialog';
+/*import {CdkMenuModule} from '@angular/cdk/menu';
+import {DialogModule} from '@angular/cdk/dialog';*/
 
 @NgModule({
   exports: [
-    A11yModule,
+    /*A11yModule,
     CdkAccordionModule,
     ClipboardModule,
     CdkMenuModule,
@@ -90,11 +90,11 @@ import {DialogModule} from '@angular/cdk/dialog';
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatTreeModule,
+    MatTreeModule,*/
     OverlayModule,
-    PortalModule,
+    /*PortalModule,
     ScrollingModule,
-    DialogModule,
+    DialogModule,*/
   ]
 })
 export class MaterialExampleModule {}
