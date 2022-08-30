@@ -2,7 +2,6 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-//import {MaterialExampleModule} from '../material.module';
 import {OverlayModule} from '@angular/cdk/overlay';
 import {CdkOverlayBasicExample} from './cdk-overlay-basic-example';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
@@ -17,7 +16,6 @@ import {HttpClientModule} from '@angular/common/http';
     FormsModule,
     HttpClientModule,
     MatNativeDateModule,
-    //MaterialExampleModule,
     OverlayModule,
     ReactiveFormsModule,
   ],
